@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 
@@ -63,10 +64,19 @@
   
   .slide {
     width: 100%;
-    height: 50vh;
+    height: 80vh;
     flex: 1 0 100%;
   }
   
+  .slide > img{
+    width: 100%;
+    max-height: 100%;
+  }
+
+
+
+
+
   .slide:nth-child(1) {
     background-color: #49b293;
   }
